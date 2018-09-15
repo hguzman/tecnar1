@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(3.jpg)no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.logo_user a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: black;
+}
+
+.logo_user a:hover {
+  color: #800000;
+}
+
+.logo_user {
+  width: 330px;
+  height: 430px;
+  background:transparent;
+  color: black;
+  top: 50%;
+  left: 50%;
+  position:fixed;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 30px 28px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.logo_user h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #800000;
+}
+
+.logo_user input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo_user label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.logo_user input[type="email"],
+.logo_user input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.logo_user input[type="submit"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.logo_user input:hover{
+  color: #800000;
+
+}
